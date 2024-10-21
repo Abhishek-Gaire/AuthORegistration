@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for AuthORegistration",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Abhishek-Gaire/AuthORegistration.git"
+  },
+  "keywords": [
+    "OAuth",
+    "AuthO",
+    "Login",
+    "Signup",
+    "Passport"
+  ],
+  "author": "Abhishek Gaire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishek-Gaire/AuthORegistration/issues"
+  },
+  "homepage": "https://github.com/Abhishek-Gaire/AuthORegistration#readme"
+}
