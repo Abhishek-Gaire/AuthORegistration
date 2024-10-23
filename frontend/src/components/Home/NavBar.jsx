@@ -1,5 +1,9 @@
 import LogoImage from "../../assets/logoImage.jpg";
+
+import { useAuth0 } from "@auth0/auth0-react";
+
 function NavBar() {
+  const { loginWithRedirect } = useAuth0();
   return (
     <nav className="navbar">
       <div className="container">
@@ -8,7 +12,9 @@ function NavBar() {
           <span>Auth Project</span>
         </div>
         <div className="nav-links">
-          <button className="btn login">Login</button>
+          <button className="btn login" onClick={() => loginWithRedirect()}>
+            Login
+          </button>
           <button className="btn signup">Sign Up</button>
         </div>
       </div>
